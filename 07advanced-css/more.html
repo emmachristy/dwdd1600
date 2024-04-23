@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Tokyo Disney Guide: Gallery Page </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="Learn about traveling to Tokyo Disney">
+        <meta name="author" content="Emma Christy">
+        
+        <link rel="stylesheet" href="more.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/-icon" href="favicon-32x32.png">
+    </head>
+    <body>
+        <!-- Start of the page header -->
+        <header>
+            <img src="Disneylandimages/logo.png" alt="site logo" width="100" height="82">
+            <div>
+                <h1>Tokyo Disney Guide</h1>
+                <p>Know where to start, on your magical vacation in the beauty of Japan.</p>
+            </div>
+        </header>
+        <!-- Start of the page navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">The Parks</a></li>
+                <li><a href="parks.html">Resort Hotels</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="active"><a href="more.html">Request More Info</a></li>
+
+            </ul>
+        </nav>
+        <!-- Start of the page content -->
+        <main>
+            <h1 >Request More Info</h1>
+            <form method="get" class="myform" action="thanks.html">
+        
+                <fieldset>
+                    <legend>User Information</legend>
+                <label>First Name*<input type="text" name="fname" required placeholder="Minnie">
+                </label>
+        
+                <label>Last Name*<input type="text" name="lname" required placeholder="Mouse">
+                </label>
+        
+                <label>Cell Number*<input type="tel" name="phone" required placeholder="801-555-1233">
+                </label>
+
+                <label>Email*<input type="email" name="email" required placeholder="minnie.mouse@gmail.com">
+                </label>
+
+                </fieldset>
+        
+        
+                <fieldset>
+                    <legend> Delivery Method</legend>
+            
+                       <label> <input type="radio" name="method" value="text"> Text Message 
+                    </label> 
+            
+                    <label> <input type="radio" name="method" value="email"> Email 
+                    </label>
+            
+                    <label> <input type="radio" name="method" value="call"> Phone Call 
+                    </label>
+
+                    <label>
+                        <select name="time">
+                        <option value="none">Select Time</option>
+                        <option value="morning">ASAP</option>
+                        <option value="noon">Between 9:00am and 11:00am</option>
+                        <option value="afternoon">Between 11:00am and 1:00pm</option>
+                        <option value="evenon">Between 1:00pm and 3:00pm</option>
+                        </select>
+                    </label>
+                    </fieldset>
+            
+                    <fieldset>
+                        <legend>Info Categories</legend>
+                            <label><input type="checkbox" name="disneyland" value="chosen"> Tokyo Disneyland</label>
+            
+                            <label><input type="checkbox" name="disneysea" value="chosen"> Disney Sea</label>
+            
+                            <label><input type="checkbox" name="vresorts" value="chosen"> Value Resorts</label>
+            
+                            <label><input type="checkbox" name="dresorts" value="chosen"> Deluxe Resorts</label>
+                       
+                            
+                    </fieldset>
+                    
+                    <label>Comments
+                    <textarea name="comments"></textarea>
+                    </label>
+        
+            
+                
+                
+                
+        
+        
+            <input type="submit" value="Send Info Request">
+                </form>
+           
+            
+
+
+        
+            <address>
+            Tokyo Disneyland<br>
+            〒279-8511<br>
+            千葉県浦安市<br>
+            舞浜1-1<br>
+            Toll-free: <a href="tel:815030902613">+81-50-3090-2613</a>
+            </address>
+       
+        </main>
+        <!-- Start of the page footer -->
+        <footer>
+        <p>&copy; 2024 &bull; Emma Christy &bull; <a href="mailto:emma.christy5309@gmail.com">Email Us</a></p>
+        </footer>
+   
+
+
+    </body>
+ 
+</html> 
